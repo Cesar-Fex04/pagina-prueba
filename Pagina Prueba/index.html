@@ -1,55 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="es"> <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PawPet - Cuidado Profesional de Mascotas</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>Veterinaria</h1>
-
-    <p>Bienvenido. En PawPet cuidamos a tus mascotas con amor y profesionalismo.</p>
-
-    <h2>Nuestra Misión</h2>
-    <p>Proveer atención veterinaria de calidad para asegurar la salud y bienestar de tus mascotas.</p>
-
-    <h2>Servicios</h2>
-    <div class="servicio-contenedor">
-        <div class="servicio-card">
-            <img src="Atencion.png" alt="Consulta General">
-            <h3>Consulta General</h3>
-            <p>Atencion medica basica y chequeos rutinarios para tus mascotas    </p>
-        </div>
-        
-          <div class="servicio-card">
-            <img src="vacunacion.png" alt="Vacunacion">
-            <h3>Vacunacion</h3>
-            <p>Aplicacion de vacunas para prevenir enfermedades comunes    </p>
-        </div>
-
-        <div class="servicio-card">
-            <img src="cirugia.png" alt="Cirugias">
-            <h3>Cirugias</h3>
-            <p>Procedimientos quirurgicos seguros realizados por especialistas    </p>
-        </div>
-
-        <div class="servicio-card">
-            <img src="emergencia.png" alt="Emergencias 24/7">
-            <h3>Emergencias 24/7</h3>
-            <p>Atención inmediata en cualquier momento del día.</p>
-        </div>
-  </div>
-
-
+  <header>
+    <nav class="navbar">
+        <img src="logo.png" class="logo-img" alt="Logo PawPet" max width="100px">
+        <ul class="nav-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="tienda.html" class="btn-tienda">Tienda 🛒 <span id="cart-count">0</span></a></li>
+        </ul>
+    </nav>
+    <div class="hero-content">
+        <h1>Veterinaria PawPet</h1>
+        <p class="simple-text">Cuidamos a tus mascotas con amor y profesionalismo.</p>
     </div>
+</header>
 
-    <h2>Contacto</h2>
-    <p>Teléfono: +123 456 7890</p>
-    <p>Email: a222200714@unison.mx</p>
-    <p>Dirección: Calle Falsa 123, Ciudad, País</p>
+    <main>
+        <section id="mision">
+            <h2>Nuestra Misión</h2>
+            <p class="simple-text">Proveer atención veterinaria de calidad para asegurar la salud y bienestar de tus mascotas.</p>
+        </section>
 
-    
+        <section id="servicios">
+            <h2>Servicios</h2>
+            <div class="servicio-contenedor">
+                
+                <article class="servicio-card">
+                    <img src="Atencion.png" alt="Veterinario examinando un cachorro">
+                    <h3>Consulta General</h3>
+                    <p class="simple-text"> Atención médica básica y chequeos rutinarios para tus mascotas.</p>
+                </article>
+
+                <article class="servicio-card">
+                    <img src="vacunacion.png" alt="Primer plano de una vacuna veterinaria">
+                    <h3>Vacunación</h3>
+                    <p class="simple-text">Aplicación de vacunas para prevenir enfermedades comunes.</p>
+                </article>
+
+                <article class="servicio-card">
+                    <img src="cirugia.png" alt="Instrumental médico en sala de cirugía">
+                    <h3>Cirugías</h3>
+                    <p class="simple-text">Procedimientos quirúrgicos seguros realizados por especialistas.</p>
+                </article>
+
+                <article class="servicio-card">
+                    <img src="emergencia.png" alt="Icono de atención médica 24 horas">
+                    <h3>Emergencias 24/7</h3>
+                    <p class="simple-text">Atención inmediata en cualquier momento del día.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h2>Contacto</h2>
+        <address> <p class="simple-text">Teléfono: <a href="tel:+1234567890">+123 456 7890</a></p>
+            <p class="simple-text">Email: <a href="mailto:a222200714@unison.mx">a222200714@unison.mx</a></p>
+            <p class="simple-text">Dirección: Calle Falsa 123, Ciudad, País</p>
+        </address>
+    </footer>
+
 </body>
 </html>

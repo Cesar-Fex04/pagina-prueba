@@ -1,0 +1,33 @@
+<!-- ALT + L + O -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda PawPet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+        <img src="logo.png" class="logo-img" alt="Logo PawPet" max width="100px">
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="tienda.html" class="active">Tienda 🛒 <span id="cart-count">0</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+   <main>
+        <h2 class="titulo-tienda">Catálogo de Productos</h2>
+        <div id="contenedor-productos" class="servicio-contenedor"></div>
+
+        <div class="carrito-resumen">
+            <p class="simple-text">Total de la compra: <strong>$<span id="precio-total">0.00</span></strong></p>
+        </div>
+   </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

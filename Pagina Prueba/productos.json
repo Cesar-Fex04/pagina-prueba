@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "nombre": "Croquetas Premium Perro",
+        "precio": 699.99,
+        "imagen": "croquetas.png",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2,
+        "nombre": "Correa Extensible",
+        "precio": 139.50,
+        "imagen": "correa.png",
+        "categoria": "accesorios"
+    },
+    {
+        "id": 3,
+        "nombre": "Shampoo Antipulgas",
+        "precio": 299.00,
+        "imagen": "shampoo.png",
+        "categoria": "medicamentos"
+    }
+]
